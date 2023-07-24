@@ -15,7 +15,7 @@
   <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
         <cucumber.version>6.11.0</cucumber.version>
-        <extentreports.cucumber6.adapter.version>2.13.0</extentreports.cucumber6.adapter.version>
+         <extentreports.cucumber7.adapter.version>1.7.0</extentreports.cucumber7.adapter.version>
         <extentreports.version>5.0.9</extentreports.version>
         <selenium.version>4.3.0</selenium.version>
         <webdrivermanager.version>5.2.1</webdrivermanager.version>
@@ -42,12 +42,12 @@
        </dependency>
  
         <!-- Cucumber ExtentReport Adapter -->
+       <!-- Cucumber ExtentReport Adapter -->
         <dependency>
             <groupId>tech.grasshopper</groupId>
-            <artifactId>extentreports-cucumber6-adapter</artifactId>
-            <version>${extentreports.cucumber6.adapter.version}</version>
+            <artifactId>extentreports-cucumber7-adapter</artifactId>
+            <version>${extentreports.cucumber7.adapter.version}</version>
         </dependency>
- 
  
         <!-- Extent Report -->
         <dependency>
